@@ -1,0 +1,2 @@
+# Type Instability in Julia Function
+This repository demonstrates a common performance issue in Julia: type instability.  The `my_function` in `bug.jl` lacks type stability, leading to slower execution times, especially with large inputs. The solution in `bugSolution.jl` addresses this issue.  See the files for code examples and the solution.
